@@ -48,14 +48,13 @@ class AttendanceGroupController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     *
+     * Display the s
      * @param  \App\Models\AttendanceGroup  $attendanceGroup
      * @return \Illuminate\Http\Response
      */
     public function show(AttendanceGroup $attendanceGroup)
     {
-        //
+        //test
     }
 
     /**
@@ -66,7 +65,7 @@ class AttendanceGroupController extends Controller
      */
     public function edit(AttendanceGroup $attendanceGroup)
     {
-        //
+        
     }
 
     /**
@@ -78,7 +77,7 @@ class AttendanceGroupController extends Controller
      */
     public function update(UpdateAttendanceGroupRequest $request, AttendanceGroup $attendanceGroup)
     {
-        //
+        
     }
 
     /**
